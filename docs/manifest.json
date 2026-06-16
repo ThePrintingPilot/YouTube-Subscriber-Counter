@@ -5,18 +5,9 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        {
-          "path": "https://cors.isomorphic-git.org/github.com/ThePrintingPilot/YouTube-Subscriber-Counter/releases/download/V2.0/YouTube_Sub_Follower_Counter.ino.bootloader.bin",
-          "offset": 4096
-        },
-        {
-          "path": "https://cors.isomorphic-git.org/github.com/ThePrintingPilot/YouTube-Subscriber-Counter/releases/download/V2.0/YouTube_Sub_Follower_Counter.ino.partitions.bin",
-          "offset": 32768
-        },
-        {
-          "path": "https://cors.isomorphic-git.org/github.com/ThePrintingPilot/YouTube-Subscriber-Counter/releases/download/V2.0/YouTube_Sub_Follower_Counter.ino.bin",
-          "offset": 65536
-        }
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partitions.bin", "offset": 32768 },
+        { "path": "firmware.bin",   "offset": 65536 }
       ]
     }
   ]
